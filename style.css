@@ -2,4 +2,108 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.section2 {
+    max-width: 1440px;
+    width: 100%;
+    height: 640px;
+    position: relative;
+    background-color: #F3F3F2;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    max-width: 375px;
+    text-align: left;
+    position: absolute;
+    left: 7.1%;
+    top: 22.3%;
+}
+
+.text_block {
+    font-size: 18px;
+    line-height: 29px;
+    max-width: 365px;
+    text-align: left;
+    position: absolute;
+    left: 7.1%;
+    top: 41.6%;
+    color: #55524E;
+}
+
+.background_image {
+    position: absolute;
+    left: 44.4%;
+    z-index: 1;
+}
+
+.form_block {
+    position: absolute;
+    left: 7.1%;
+    top: 64.8%;
+    z-index: 2;
+    width: 720px;
+    height: 80px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    gap: 4px;
+}
+
+.form_section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 100;
+    gap: 7px;
+}
+
+.form_title {
+    font-size: 12px;
+    color: #787573;
+}
+
+.form_tip {
+    font-size: 13px;
+    color: #090808;
+}
+
+.divider {
+    width: 1px;
+    height: 36px;
+    background-color: #CECDCA;
+    flex-grow: 1;
+}
+
+.button {
+    /* flex-grow: 100; */
+    width: 157px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #08786C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button p {
+    color: #FFFFFF;
+}
+
+.button_img {
+    width: 17px;
+    height: 16px;
 }
